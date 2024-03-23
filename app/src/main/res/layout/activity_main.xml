@@ -1,0 +1,77 @@
+<!-- personal_info_page.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/textViewPersonalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="PERSONAL INFORMATION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#920092"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_below="@id/textViewPersonalInfo"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/personalinfo" />
+
+    <!-- Full Name -->
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Full Name"
+        android:textSize="20sp"
+        android:textStyle="normal" /> <!-- Increased margin -->
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter E-mail ID"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/editTextFullName"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" /> <!-- Corrected margin -->
+
+    <!-- Address -->
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Address"
+        android:textSize="20sp"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="20dp" /> <!-- Corrected margin -->
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButtonPersonalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/editTextAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

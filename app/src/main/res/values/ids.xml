@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewPersonalInfo" type="id" />
+    <item name="imageView" type="id" />
+    <item name="editTextFullName" type="id" />
+    <item name="editTextEmail" type="id" />
+    <item name="editTextAddress" type="id" />
+    <item name="nextButtonPersonalInfo" type="id" />
+    <item name="textInputLayout1" type="id" />
+    <item name="textViewEducationalInfo" type="id" />
+    <item name="autoComplete_text1" type="id" />
+    <item name="textInputLayout2" type="id" />
+    <item name="autoComplete_text2" type="id" />
+    <item name="editTextUniversity" type="id" />
+    <item name="editTextPercentage" type="id" />
+    <item name="continueButtonEducationalInfo" type="id" />
+    <item name="SelectQualifications" type="id" />
+    <item name="SelectYearOfPassing" type="id" />
+</resources>
