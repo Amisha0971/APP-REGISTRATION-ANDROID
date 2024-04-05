@@ -65,9 +65,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(TAG, "Response: " + response);
                         Toast.makeText(MainActivity.this, "Data inserted successfully", Toast.LENGTH_SHORT).show();
 
-                        // Navigate to the next activity here
-                        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                        startActivity(intent);
+
                     }
                 },
                 new Response.ErrorListener() {

@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Registration</string>
-    <string name="SelectQualifications">Select Qualifications</string>
-    <string name="SelectYearOfPassing">Select Year Of Passing</string>
+
 </resources>
