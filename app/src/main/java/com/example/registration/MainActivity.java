@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText fullNameEditText, emailEditText, addressEditText;
     private Button nextButton;
-    private static final String URL = "http://192.168.43.104/AsteriscEnquiry/personalInfo.php";
+    private static final String URL = "http://192.168.43.167/AsteriscEnquiry/personalInfo.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,8 +64,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         Log.d(TAG, "Response: " + response);
                         Toast.makeText(MainActivity.this, "Data inserted successfully", Toast.LENGTH_SHORT).show();
-
-
                     }
                 },
                 new Response.ErrorListener() {
